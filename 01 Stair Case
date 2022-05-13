@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int a,i,j;
+    printf("Enter the number of stairs you need : ");
+    scanf("%d",&a);
+    for(i=0;i<=a;i++)
+    {
+        for(j=0;j<=i;j++)
+        {
+            printf("01");
+        }
+        printf("\n");
+    }
+}
